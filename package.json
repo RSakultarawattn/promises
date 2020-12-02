@@ -1,0 +1,31 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSakultarawattn/promises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RSakultarawattn/promises/issues"
+  },
+  "homepage": "https://github.com/RSakultarawattn/promises#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.16",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "run": "^1.4.0",
+    "run-script": "^0.1.1",
+    "start": "^5.1.0"
+  }
+}
