@@ -24,6 +24,7 @@
     "jest": "^26.6.3"
   },
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "run": "^1.4.0",
     "run-script": "^0.1.1",
     "start": "^5.1.0"
