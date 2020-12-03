@@ -1,12 +1,11 @@
 const fetch = require('node-fetch');
 
 function manyCharacters() {
-    Promise.all([
-        fetch('https://rickandmortyapi.com/api/character')
-    ])
+    Promise.all([fetch('https://rickandmortyapi.com/api/character/')
+    ]);
         .then(([resRickAndMorty]) => {
-            console.log(resRickAndMorty)
-        })
+        console.log(resRickAndMorty)
+    })
 
 };
 
