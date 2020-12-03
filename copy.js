@@ -5,7 +5,6 @@ const copy = (src, dst) => {
         .then(data => fs.writeFile(dst, data))
 }
 
-//copy('./README.md', './READMEAGAIN.md')
 
 module.exports = {
     copy
