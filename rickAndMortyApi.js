@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 function getCharacter(id) {
-    return fetch('`https://rickandmortyapi.com/api/character/${id}`')
+    return fetch(`https://rickandmortyapi.com/api/character/${id}`)
         .then(res => res.json())
         .then(character => {
             return {
